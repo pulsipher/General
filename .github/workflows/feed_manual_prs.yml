@@ -69,7 +69,7 @@ jobs:
         response = sendattachmenttoslack(data, endpoint)
         @info "Slack said: $response"
       env:
-        SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
+        SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT_MANUAL_PRS }}
         PR_NUMBER: ${{ github.event.number }}
         PR_TITLE: ${{ github.event.pull_request.title }}
         PR_AUTHOR: ${{ github.event.pull_request.user.login }}
