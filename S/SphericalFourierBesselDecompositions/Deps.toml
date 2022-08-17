@@ -26,3 +26,6 @@ FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 Scanf = "6ef1bc8b-493b-44e1-8d40-549aa65c4b41"
 WignerD = "87c4ff3e-34df-11e9-37a7-516cea4e0402"
+
+["0.4-0"]
+ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"

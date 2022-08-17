@@ -18,8 +18,10 @@ Roots = "1"
 SpecialFunctions = ["0.10.1-0.10", "1"]
 
 ["0.2-0"]
-Healpix = "3"
 WignerSymbols = "1.1.0-2"
+
+["0.2-0.3"]
+Healpix = "3"
 
 ["0.2.1-0"]
 ProgressMeter = "1"
@@ -27,9 +29,16 @@ ProgressMeter = "1"
 ["0.2.3-0"]
 SpecialFunctions = ["0.10.1-0.10", "1-2"]
 
-["0.3-0"]
+["0.3"]
 FastTransforms = "0.13"
+
+["0.3-0"]
 LoopVectorization = "0.12"
 Roots = "1-2"
 Scanf = "0.5"
 WignerD = "0.1"
+
+["0.4-0"]
+FastTransforms = "0.13-0.14"
+Healpix = "3-4"
+ThreadsX = "0.1"
